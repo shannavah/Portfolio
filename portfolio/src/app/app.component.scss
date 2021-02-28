@@ -68,38 +68,21 @@
         line-height: 20px;
     }
 }
-.experience-container {
+.body-container {
     display: flex;
     flex-direction: column;
-    //align-items: center;
-    @media (min-width: 900px) {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-    @media (min-width: 1300px) {
-        margin-left: 400px;
-        margin-right: 400px;
-    }
+    align-items: center;
 
-    .experience-title {
+    .body-title {
         display: flex;
         margin-bottom: 20px;
         margin-top: 30px;
         font-weight: bold;
-        margin-left: -7px;
+        align-self: flex-start;
+        //margin-left: -7px;
         
-        @media (min-width: 900px) {
-            margin-left: 200px;
-            //margin-right: 200px;
-            margin-right: 1250px;
-        }
-        @media (min-width: 1300px) {
-            margin-left: 400px;
-            //margin-right: 400px;
-            margin-right: 1250px;
-        }
     }
-    .experience-section-container {
+    .section-container {
         display: flex;
         flex-direction: row;
         .vertical-line {
@@ -107,9 +90,13 @@
             border-right: 1px dashed grey;
             margin-right: 30px;
         }
-        .experience-section {
+        .section-item {
             display: flex;
             flex-direction: column;
+        }
+        .education-item {
+            margin-bottom: 5px;
+            margin-top: 5px;
         }
     }
 }
